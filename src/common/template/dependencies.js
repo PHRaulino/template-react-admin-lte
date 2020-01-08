@@ -19,7 +19,7 @@ import 'admin-lte/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4
 import 'admin-lte/plugins/summernote/summernote-bs4.min.js';
 import 'admin-lte/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js';
 import 'admin-lte/dist/js/adminlte.js';
-import 'admin-lte/dist/js/pages/dashboard.js';
-import 'admin-lte/dist/js/demo.js';
+// import 'admin-lte/dist/js/pages/dashboard.js';
+// import 'admin-lte/dist/js/demo.js';
 import 'admin-lte/dist/css/adminlte.min.css';
 import './custom.css';
