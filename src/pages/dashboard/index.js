@@ -3,7 +3,7 @@ import { Content } from '../../common/template';
 
 export default () => {
   return (
-    <Content>
+    <Content titlePage='Dashboard' homePage='Home'>
       
     </Content>
   )

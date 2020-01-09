@@ -4,7 +4,7 @@ import { ContentHeader } from '../elements/content';
 export default props => {
   return (
     <div className='content-wrapper'>
-      <ContentHeader />
+      <ContentHeader title={props.titlePage} home={props.homePage} />
       {props.children}
     </div>
   )
