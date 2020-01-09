@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, DropMenu, DropItem, FormSearch } from '../elements/navbar'
+import { Link, DropMenu, DropItem } from '../elements/navbar'
 export default () => {
 
   return (
@@ -12,15 +12,14 @@ export default () => {
         </li>
 
         <Link showText='Home' link='#' />
-        <Link showText='Contacts' link='#' />
-        <DropMenu showText='Help' link='#'>
-          <DropItem showTextChild='FAQ' linkChild='#' />
+        <Link showText='DashBoard' link='#' />
+        <DropMenu showText='Equipes' link='#'>
+          <DropItem showTextChild='Private' linkChild='#' />
+          <DropItem showTextChild='Ações' linkChild='#' />
+          <DropItem showTextChild='Previdencia' linkChild='#'/>
         </DropMenu>
 
       </ul>
-
-      <FormSearch />
-
     </nav>
 
   )

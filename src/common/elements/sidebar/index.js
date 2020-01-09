@@ -1,6 +1,4 @@
-import MenuSideBar from './sideBarMenu'
-import LogoSideBar from './logoSideBar'
-import SideBarItem from './sideBarItem';
-import Tree from './treeView';
-
-export { MenuSideBar, LogoSideBar, SideBarItem, Tree }
+export { default as LogoSideBar } from './logoSideBar'
+export { default as MenuSideBar } from './sideBarMenu'
+export { default as SideBarItem } from './sideBarItem';
+export { default as Tree } from './treeView';
