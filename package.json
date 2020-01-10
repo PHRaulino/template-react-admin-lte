@@ -63,8 +63,7 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
-    "lint": "eslint src/**/**.js",
-    "prepush": "npm run lint"
+    "lint": "eslint src/**/**.js"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -143,5 +142,10 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.17.0",
     "eslint-plugin-react-hooks": "^1.7.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run lint"
+    }
   }
 }
